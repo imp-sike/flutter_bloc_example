@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_example/logic/cubit/main_cubit.dart';
 import 'package:flutter_bloc_example/presentation/router/app_router.dart';
-import 'package:flutter_bloc_example/presentation/screens/home_screen.dart';
 
 void main() => runApp(const BaseApp());
 

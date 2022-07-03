@@ -45,17 +45,17 @@ class HomeScreen extends StatelessWidget {
               ),
             ],
           ),
-          Container(
-            margin: const EdgeInsets.all(50),
-            child: MaterialButton(
-              color: Colors.red,
-              padding: const EdgeInsets.all(20),
-              onPressed: () {
-                Navigator.pushNamed(context, "/second");
-              },
-              child:  const Text("Go to Second screen", style: TextStyle(color: Colors.white),),
-            ),
-          )
+          // Container(
+          //   margin: const EdgeInsets.all(50),
+          //   child: MaterialButton(
+          //     color: Colors.red,
+          //     padding: const EdgeInsets.all(20),
+          //     onPressed: () {
+          //       Navigator.pushNamed(context, "/second");
+          //     },
+          //     child:  const Text("Go to Second screen", style: TextStyle(color: Colors.white),),
+          //   ),
+          // )
         ],
       ),
     );
