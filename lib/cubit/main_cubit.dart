@@ -1,11 +1,15 @@
+import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class CounterState {
+class CounterState extends Equatable {
   int countervalue;
   
   CounterState({
     required this.countervalue,
   });
+  
+  @override
+  List<Object?> get props => [countervalue];
 }
 
 class CounterCubit extends Cubit<CounterState> {
